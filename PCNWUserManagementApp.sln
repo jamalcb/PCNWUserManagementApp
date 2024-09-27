@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35017.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCNWUserManagementApp", "PCNWUserManagementApp\PCNWUserManagementApp.csproj", "{DCC3C40C-02D5-435D-941F-1B4B196EB9D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCC3C40C-02D5-435D-941F-1B4B196EB9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC3C40C-02D5-435D-941F-1B4B196EB9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC3C40C-02D5-435D-941F-1B4B196EB9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC3C40C-02D5-435D-941F-1B4B196EB9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7BE033F-AC58-4510-9529-4184409AF1D7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Identity
+@{
+    ViewData["Title"] = "All Roles";
+}
+<div>
+    <table class="table">
+        <thead>
+            <th>Roles</th>
+            
+        </thead>
+        <tbody>
+            @foreach (var rol in ViewBag.Roles as List<IdentityRole>)
+            {
+                <tr>
+                    <td>@rol.Name</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    <div>
+        
+        <a asp-action="CreateRole" asp-controller="Account">Create Role</a>
+        
+    </div>
+</div>
